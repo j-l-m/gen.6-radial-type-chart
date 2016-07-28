@@ -17,5 +17,5 @@ Uses Highcharts.js
 
 Note: AttackOnly.html only has the outer ring for attack effectiveness, where as AttackAndDefense.html shows both.
 
-Working Demo here (jsfiddle):
+######Working Demo here (jsfiddle):
 - https://jsfiddle.net/jL29o6x4/

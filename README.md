@@ -9,7 +9,7 @@ Chart is interactive, values change depending on the type selected.
 Uses Highcharts.js 
 
 
-######How to use:
+###### How to use:
 - open the html file.
 - click on the desired type.
 - The values on the outer ring are the attack effectiveness multipliers of the selected type vs. every type.
@@ -17,5 +17,5 @@ Uses Highcharts.js
 
 Note: AttackOnly.html only has the outer ring for attack effectiveness, where as AttackAndDefense.html shows both.
 
-######Working Demo here (jsfiddle):
+###### Working Demo here (jsfiddle):
 - https://jsfiddle.net/jL29o6x4/

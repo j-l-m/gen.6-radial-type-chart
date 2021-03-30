@@ -1,0 +1,97 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pokemon Type Chart</title>
+		
+		
+		<style>
+		
+			.good {
+				background-color: #5cd65c;
+			}
+			
+			.neutral{
+				background-color: lightgrey;
+			}
+			
+			.weak{
+				background-color:#ff4d4d;
+			}
+			
+			.noeffect{
+				background-color:black;
+			}
+			
+			table, td, th {    
+				border: 1px solid #ddd;
+				text-align: center;
+			}
+
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			th, td {
+				padding: 15px;
+			}
+			
+			body {
+				font-family: Arial;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+	
+		<div id="container" style="margin:auto;width:700px;height:700px;background-image:url('sand.png')">
+			
+			
+		</div>
+		
+		
+		<div style="margin:auto;width:700px;height:700px;">
+			<h3>Description</h3><p>A radial pokemon type chart showing attack and defense multiplier. Attack is shown on the outer circle while defense is shown on the inner circle</p>
+			<br>
+			<h3>Multiplier Colour Codes</h3><br>
+				<table>
+					<thead>
+						<th>Attack</th>
+						<th>Colour</th>
+						<th>Defense</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2x</td>
+							<td class="good"></td>
+							<td>0.5x</td>
+						</tr>
+						<tr>
+							<td>1x</td>
+							<td class="neutral"></td>
+							<td>1x</td>
+						</tr>
+						<tr>
+							<td>0.5x</td>
+							<td class="weak"></td>
+							<td>2x</td>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td class="noeffect"></td>
+							<td>0</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+		
+		
+	
+	<!-- Scripts -->		
+		<script src="jslibs/jquery/dist/jquery.min.js"></script>
+		<script src="jslibs/highcharts/highcharts.js"></script>
+		<script src="./main2.js"></script>
+		
+	</body>
+</html>
